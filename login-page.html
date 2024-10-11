@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/style-login.css">
+    <link rel="icon" type="image/x-icon" href="img/cine-logo-wtext.png">
+    <title>Cine Pipoca | Login</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Crie uma conta!</h1>
+                <div class="social-icons">
+                    <a href="home.html" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>Ou use um email para criar</span>
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="E-mail">
+                <input type="password" placeholder="Senha">
+                <button>Registrar</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Login</h1>
+                <div class="social-icons">
+                    <a href="home.html" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>Ou use seu e-mail e senha</span>
+                <input type="email" placeholder="E-mail">
+                <input type="password" placeholder="Senha">
+                <a href="#">Esqueceu sua senha?</a>
+                <button>Logar</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Bem-vindo de volta!</h1>
+                    <p>Clique aqui e coloque suas credencias já registrada para logar em nosso site!</p>
+                    <button class="hidden" id="login">Logar</button>
+                    <img src="img/cine-logo-wtext.png" alt="" class="img-left">
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Olá, Amigos!</h1>
+                    <p>Clique aqui para registre sua conta com suas informações pessoas para usar nosso site!</p>
+                    <button class="hidden" id="register">Registrar</button>
+                    <img src="img/cine-logo-wtext.png" alt="" class="img-right">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="javaScript/script-login.js"></script>
+</body>
+
+</html>
